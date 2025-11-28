@@ -1,2 +1,2 @@
 # portfolio
-M1|FA1 Portfolio Task by Tabacon, Jericho
+IT103L Module1 FA1 - Coded Course Portfolio by Tabacon, Jericho
