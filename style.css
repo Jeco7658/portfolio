@@ -1,4 +1,128 @@
-/* Default Light Theme */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url("images/shorekeeper.jpg");
+  background-size: cover;
+  background-position: center 20%;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.profile-img {
+  width: 140px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px; border: 1px solid rgba(255, 255, 255, 0.4); /* subtle border */ 
+  border-radius: 20px; 
+  background: rgba(255, 255, 255, 0.15); /* semi-transparent background */ 
+  color: #fff; 
+  cursor: pointer; 
+  font-weight: 600; 
+  backdrop-filter: blur(); /* frosted glass blur */ 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* soft shadow for depth */ 
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.25); /* slightly brighter on hover */ 
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  color: #426edd;
+  margin-bottom: 15px;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.link-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 20px;
+  background-color: #426edd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.link-btn:hover {
+  background-color: #6198fd;
+}
+
+/* footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #426edd;
+  color: #ffffff;
+  margin-top: 40px;
+} */
+
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+}
+
+body.dark footer {
+  background-color: #426edd;
+}
+
+body.dark .link-btn {
+  background-color: #426edd;
+}
+
+
+
+
+
+
+/* /* Default Light Theme */
 body {
 	font-family: Arial, sans-serif;
 	background-color: #f5f5f5;
@@ -27,4 +151,4 @@ button {
 body.dark {
 	background-color: #121212;
 	color: #f5f5f5;
-}
+} */
